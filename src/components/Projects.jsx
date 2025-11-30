@@ -51,21 +51,21 @@ const projects = [
     ],
     link: "https://github.com/subashp-96/aws-infra-terraform.git"
   },
-  {
-    id: "monitor",
-    title: "Monitoring & Observability",
-    short: "Prometheus + Grafana + Loki setup for EKS workloads.",
-    details:
-      "Implemented monitoring stack for EKS workloads using Prometheus, Grafana, and Loki for logs. Configured dashboards, alerting rules, and runbooks to improve incident response and SLO observability.",
-    image: "/src/assets/monitor.png",
-    bullets: [
-      "Prometheus metrics scraping for app + infra",
-      "Grafana dashboards for SLOs and alerts",
-      "Loki for centralized logs and queries",
-      "Alertmanager routing and escalation policies"
-    ],
-    link: "#"
-  }
+  // {
+  //   id: "monitor",
+  //   title: "Monitoring & Observability",
+  //   short: "Prometheus + Grafana + Loki setup for EKS workloads.",
+  //   details:
+  //     "Implemented monitoring stack for EKS workloads using Prometheus, Grafana, and Loki for logs. Configured dashboards, alerting rules, and runbooks to improve incident response and SLO observability.",
+  //   image: "/src/assets/monitor.png",
+  //   bullets: [
+  //     "Prometheus metrics scraping for app + infra",
+  //     "Grafana dashboards for SLOs and alerts",
+  //     "Loki for centralized logs and queries",
+  //     "Alertmanager routing and escalation policies"
+  //   ],
+  //   link: "#"
+  // }
 ];
 
 export default function Projects() {
