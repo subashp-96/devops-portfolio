@@ -1,4 +1,5 @@
 import React from "react";
+import certificatePDF from "../assets/terraform-certificate.pdf";
 
 export default function Certifications() {
   return (
@@ -11,7 +12,7 @@ export default function Certifications() {
 
       <a
         className="btn-primary"
-        href="/src/assets/terraform-certificate.pdf"
+        href={certificatePDF}
         target="_blank"
         rel="noreferrer"
         style={{ marginTop: "16px", display: "inline-block" }}

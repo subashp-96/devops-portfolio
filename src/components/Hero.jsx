@@ -19,7 +19,7 @@ export default function Hero(){
       </div>
 
       <div className="hero-img" data-aos="zoom-in">
-        <img src={profile} alt="Subash"/>
+        {/* <img src={profile} alt="Subash"/> */}
       </div>
     </div>
   );
