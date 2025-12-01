@@ -1,4 +1,4 @@
-import resumeFile from "../assets/resume.pdf";
+import resumeFile from "../assets/Resume.pdf";
 
 export default function ResumeSection() {
   return (
